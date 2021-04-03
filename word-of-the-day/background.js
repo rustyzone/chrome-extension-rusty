@@ -8,4 +8,5 @@ chrome.runtime.onMessage.addListener((msg, sender, response) => {
         // Send response
         response({ api: apiEndPoint, date });
     }
+    return true; //to help fix issue with chrome.runtime
 });
