@@ -1,0 +1,13 @@
+{
+    "name": "Word of the Day",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Displays the word of the day on a new tab",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "background": {
+        "page": "background.html",
+        "persistant": false
+    }
+}
